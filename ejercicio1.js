@@ -6,9 +6,15 @@
  */
 
 var arraySum = function(array) {
-  // TODO: Tu codigo aqui!
-  // ...
-  return 1337;
+  
+ var x=0;
+ for (var i = 0; i < array.length; i++) {
+  
+    x=array[i]+x;
+
+ }
+ return x;
+ 
 };
 
 // Prueba (No modificar)

@@ -11,9 +11,19 @@
  */
 
 var colorCabello = function(personas) {
-  // TODO: Tu codigo aquí!
-  // ...
-  return 'rainbow';
+
+  var edadDelMayorActual=-1;
+  var posicionDelMayorActual =-1 ;
+  for (var i = 0; i < personas.length; i++) {
+  
+    var edadDePersonaActual=personas[i].edad;
+    if(edadDePersonaActual>edadDelMayorActual) {
+    posicionDelMayorActual=i;
+    edadDelMayorActual=edadDePersonaActual;}
+  
+  }
+  return personas[posicionDelMayorActual].colorCabello;
+
 };
 
 // Prueba (No modificar)

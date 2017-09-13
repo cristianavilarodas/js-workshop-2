@@ -15,8 +15,9 @@
  var array = [2, 3, 4];
 
  arrayDoble(array, function(value) {
-   // TODO: Tu codigo aqui!
-   // ...
+  
+  return 2*value;
+  
  });
 
 // Prueba (No modificar!)
